@@ -39,10 +39,10 @@ var EasyReactGenerator = yeoman.generators.Base.extend({
       this.src.copy('_bower.json', 'bower.json');
       this.src.copy('_package.json', 'package.json');
       this.src.copy('_gulpfile.js', 'gulpfile.js');
-      this.src.copy('_index.html', 'index.html');
-      this.src.copy('_app.js', 'javascripts/app.js');
-      this.src.copy('_title.html', 'javascripts/templates/title.html');
-      this.src.copy('_title.js', 'javascripts/components/title.js');
+      this.src.copy('_index.html', 'app/index.html');
+      this.src.copy('_app.js', 'app/javascripts/app.js');
+      this.src.copy('_title.html', 'app/javascripts/templates/title.html');
+      this.src.copy('_title.js', 'app/javascripts/components/title.js');
 
 
     },
