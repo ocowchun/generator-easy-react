@@ -36,8 +36,11 @@ var EasyReactGenerator = yeoman.generators.Base.extend({
       this.dest.mkdir('app');
       this.dest.mkdir('app/templates');
 
-      this.src.copy('_package.json', 'package.json');
       this.src.copy('_bower.json', 'bower.json');
+      this.src.copy('_package.json', 'package.json');
+      this.src.copy('_gulpfile.js', 'gulpfile.js');
+      this.src.copy('_index.html', 'index.html');
+
     },
 
     projectfiles: function () {
