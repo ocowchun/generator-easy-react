@@ -62,5 +62,5 @@ gulp.task('browserify', ['copy', 'react'], function() {
 
 gulp.task('default', ['browserify', 'browserSync'], function() {
 	gulp.watch('app/*.html', ['copy_html']);
-	gulp.watch('app/javascripts/*.*', ['browserify']);
+	gulp.watch('app/javascripts/**/*', ['browserify']);
 });
