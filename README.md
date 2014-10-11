@@ -1,4 +1,4 @@
-# generator-easy-react [![Build Status](https://secure.travis-ci.org/ocowchun/generator-easy-react.png?branch=master)](https://travis-ci.org/ocowchun/generator-easy-react)
+# generator-easy-react 
 
 > [Yeoman](http://yeoman.io) generator
 
