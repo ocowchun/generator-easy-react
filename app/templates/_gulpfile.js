@@ -38,7 +38,7 @@ gulp.task('copy_components', function() {
 });
 
 gulp.task('copy_js', function() {
-	var files = 'app/javascripts/*.js';
+	var files = 'app/javascripts/**/*.js';
 	return gulp.src(files).pipe(gulp.dest('temp/javascripts'));
 });
 
