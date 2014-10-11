@@ -1,45 +1,49 @@
 # generator-easy-react 
 
-> [Yeoman](http://yeoman.io) generator
+> [Yeoman](http://yeoman.io) generator for build [React](http://facebook.github.io/react/index.html) app eaisly.
 
 
-## Getting Started
-
-### What is Yeoman?
-
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
-
-```bash
-npm install -g yo
+## Usage
+Install generator-easy-react
 ```
-
-### Yeoman Generators
-
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
-
-To install generator-easy-react from npm, run:
-
-```bash
 npm install -g generator-easy-react
 ```
 
-Finally, initiate the generator:
+Make a new directory, and cd into it:
+```bash
+mkdir new_react_project && cd $_
+```
 
+Run `yo easy-react`
 ```bash
 yo easy-react
 ```
 
-### Getting To Know Yeoman
+Run `gulp` for building and preview
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+###Directory
+####app/javascripts/templates
+for your jsx
+####app/javascripts/components
+for your component
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
+###Custom Element in html
+If you use custom element in html:
+```html
+<div>
+	<HelloMessage name="John" />
+</div>
+```
+
+You Must add require path about the custom element component:
+
+```
+<!-- var HelloMessage = require('.././components/hello_message'); -->
+<div>
+	<HelloMessage name="John" />
+</div>
+```
+
 
 
 ## License
