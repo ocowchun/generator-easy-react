@@ -2,7 +2,9 @@ var React = require('react');
 
 var Title = require('./components/title');
 
-
-React.renderComponent(Title({name:"hello joe!!"}),
+React.render(
+	React.createElement(Title, {
+		name: 'John Cena'
+	}),
 	document.getElementById('react')
 );
