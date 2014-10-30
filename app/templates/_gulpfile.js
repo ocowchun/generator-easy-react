@@ -30,7 +30,7 @@ gulp.task('browserSync', function() {
 
 
 gulp.task('react', function() {
-	return gulp.src('app/javascripts/templates/*.html')
+	return gulp.src('app/javascripts/templates/**/*.html')
 		.pipe(html2react())
 		.pipe(gulp.dest('temp/javascripts/templates'));
 });
