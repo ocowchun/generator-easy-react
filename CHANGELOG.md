@@ -1,6 +1,8 @@
 ## 0.0.4 (April 20, 2015)
+
 * Remove useless prompt
 * Add [JSCS](http://jscs.info/) config
+
 
 ## 0.0.3 (October 29, 2014)
 
