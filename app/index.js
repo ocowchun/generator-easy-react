@@ -24,7 +24,6 @@ var EasyReactGenerator = yeoman.generators.Base.extend({
       this.src.copy('_title.html', 'app/javascripts/templates/title.html');
       this.src.copy('_title.js', 'app/javascripts/components/title.js');
 
-
     },
 
     projectfiles: function() {
