@@ -1,6 +1,6 @@
 {
   "name": "generator-easy-react",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Another Yeoman generator for React",
   "license": "MIT",
   "main": "app/index.js",
