@@ -2,7 +2,7 @@
 
 * Remove useless prompt
 * Add [JSCS](http://jscs.info/) config
-
+* Update [React](https://github.com/facebook/react) to `v0.13.2`
 
 ## 0.0.3 (October 29, 2014)
 
