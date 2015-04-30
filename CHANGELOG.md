@@ -1,3 +1,6 @@
+## 0.0.5 (April 30, 2015)
+* Update gulpfile [browser-sync] to `v2.6.9`
+
 ## 0.0.4 (April 20, 2015)
 
 * Remove useless prompt
